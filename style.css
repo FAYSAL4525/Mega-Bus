@@ -66,6 +66,7 @@ nav ul li a:hover, a.active{
     float: right;
     width: 80%;
     margin: 50px 0px 0px 80px;
+    
 }
 .booking-form h3{
     margin: 10px 0px;
@@ -89,6 +90,7 @@ nav ul li a:hover, a.active{
     background: #F3F5FF;
     border-radius: 4px;
     margin: 10px 0;
+    outline: 0;
 }
 .booking-form .inputs{
     display: grid;
@@ -116,6 +118,7 @@ nav ul li a:hover, a.active{
     margin-bottom:5px;
     background-color: rgba(235, 228, 228, 0);
     border:0 solid rgba(235, 228, 228, 0);
+    outline:0;
 }
 .btn:hover{
     background-color:#52AF3A;
@@ -130,9 +133,48 @@ nav ul li a:hover, a.active{
     color: #fff;
     font-weight: 500;
     background-color:  #52AF3A;
+    outline: 0;
    
 }
 .amount{
     display: flex;
     justify-content: space-between;
+}
+#popup{
+    display:none;
+}
+.popup{
+   width:40%;
+   margin:0 auto; 
+   margin-bottom: 30px;
+}
+.close-btn{
+    
+    font-size: 30px;
+    text-align: center;
+    border-radius: 10px;
+    color: #f31313;
+    font-weight: 700;
+    margin-bottom:5px;
+    background-color: rgba(235, 228, 228, 0);
+    border:0 solid rgba(235, 228, 228, 0);
+    outline:0;
+    padding:5px;
+
+}
+.head-part{
+    display: flex;
+    justify-content: space-between;
+}
+.popup-input-bgc-color{
+    background: rgba(235, 228, 228, 0)!important;
+    border:0 solid rgba(235, 228, 228, 0)!important;
+}
+.popup-input-bgc-color::-webkit-input-placeholder{
+    color:black;
+    font-weight: 700;
+}
+.bg-color{
+    background-color:  rgba(235, 228, 228, 0.9)!important;
+    margin-bottom: 80px;
 }
